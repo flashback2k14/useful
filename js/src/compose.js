@@ -1,7 +1,8 @@
 /**
- * compose functions like (g, f) => x => g(f(x))
+ * Performs right-to-left function composition.
  *
  * @param  {...any} functions function array to compose
+ * @returns function
  */
 const compose = (...functions) => (initialValue) => {
   return functions.reduceRight((acc, currFn) => {
