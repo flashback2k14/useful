@@ -1,0 +1,19 @@
+{
+  "name": "useful-js",
+  "version": "1.0.0",
+  "description": "useful js things",
+  "keywords": [
+    "useful",
+    "js"
+  ],
+  "author": "flashback2k14",
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
